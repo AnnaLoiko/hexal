@@ -369,6 +369,12 @@ nav a:nth-child(3):after{
   -ms-transform: rotate(-18deg) skewX(56deg);
   transform: rotate(-18deg) skewX(56deg);
 }
+.logo:hover:after {
+  background: #fff;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  transition: all 500ms ease; 
+}
 
 .hexal-list {
   overflow: hidden;
@@ -447,7 +453,9 @@ nav a:nth-child(3):after{
   margin-right: 0.8px;
 }
 
-.slide-pagination a.active {
+.slide-pagination a.active,
+.slide-pagination a:hover,
+.slide-pagination a:focus {
   background: #8a8683;
 }
 
