@@ -552,6 +552,39 @@ nav a:nth-child(3):after{
   background: #ffffff;
 }
 
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-google-plus:before {
+    content: "\f0d5";
+}
+
+.fa-pinterest-p:before {
+    content: "\f231";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.fa-dribbble:before {
+    content: "\f17d";
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 form {
   padding-top: 20px;
 }
